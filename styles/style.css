@@ -786,8 +786,6 @@ td {
 }
 
 
- /* --------------card box design----------------*/
-
 .card-box {
     width: 202px;
     height: 85px;
@@ -852,3 +850,157 @@ td {
     align-items: center;
     justify-content: center;
 } 
+.text-input {
+    width: 691px;
+    height: 42px;
+    gap: 16;
+    padding: 13px 26px 13px 26px;
+    margin: 21px 83px 58px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+}
+.text-input::placeholder {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.value-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-5 {
+    width: 93px;
+    height: 32px;
+    gap: 10;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background: rgb(0, 106, 80);
+}
+
+.number-bar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.subscribe-container {
+    height: 264px;
+    gap: 64;
+    margin: 53px 0px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.subscribe-content {
+    height: 395px;
+    /* Auto layout */
+    gap: 42;
+    padding: 53px 57px 53px 57px;
+    margin: 53px 0px;
+}
+
+.subscribe-title {
+
+    position: static;
+    width: 622px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    margin: 0 auto;
+    color: rgb(14, 14, 14);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subscribe-description {
+    width: 354px;
+    height: 32px;
+    gap: 10;
+    margin: 0 auto;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.e-mail-input {
+    width: 342px;
+    height: 32px;
+    margin: 21px 0px;
+    padding-left: 20px;
+    border-style: none;
+    color: white;
+    background: white;
+}
+.btn-3 {
+    width: 93px;
+    height: 32px;
+    margin: 21px 0px;
+    border-radius: 0px 5px 5px 0px;
+    border-style: none;
+    color: white;
+    background: rgb(0, 106, 80);
+}
+.email-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer {
+    width: 354px;
+    height: 12px;
+    gap: 16;
+    margin: 0 auto;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.independent {
+    width: 148px;
+    height: 25px;
+    gap: 10;
+    margin: 0 auto;
+    color: rgb(14, 14, 14);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+
+.opinion-effect:hover {
+    background-color: cyan;
+    cursor: pointer;
+}

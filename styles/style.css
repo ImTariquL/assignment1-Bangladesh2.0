@@ -781,7 +781,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .footer {
     width: 354px;
-    height: 12px;
+    height: 20px;
     gap: 16;
     margin: 0 auto;
     color: rgba(14, 14, 14, 0.7);
@@ -807,6 +807,7 @@ input[type=number]::-webkit-outer-spin-button {
     align-items: center;
     justify-content: center;
     margin-top: 42px;
+    gap: 5px;
 }
 
 

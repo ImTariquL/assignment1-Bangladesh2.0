@@ -17,6 +17,7 @@ body {
     background-color: #F1F1F3;
 }
 
+/* --------------------------navbar section---------------- */
 
 
 .nav-container {
@@ -42,6 +43,7 @@ body {
     font-weight: 600;
     line-height: 14px;
 }
+/* ------------------- banner section------------------------- */
 
 .hero-container {
     height: 300px;
@@ -119,6 +121,16 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+/* ------------------phillar section---------------------- */
+
 .pillar-content {
     display: flex;
     align-items: center;
@@ -184,6 +196,10 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* ---------------------vision section--------------------- */
+
+
 .vision-description {
     font-size: 11px;
     font-weight: 400;
@@ -206,6 +222,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
+
 
 .card-content {
     height: 217px;
@@ -285,10 +302,8 @@ body {
     background-color: rgb(247, 235, 207);
 }
 
-button:hover {
-    background-color: cyan;
-    cursor: pointer;
-}
+
+/* -----------------chief qoute----------------------- */
 
 .chief-quote {
     height: 64px;
@@ -339,6 +354,7 @@ button:hover {
 }
 
 
+/* --------------------opinion section------------------ */
 .opinion-container {
     height: 274px;
     border-radius: 10px;
@@ -386,103 +402,7 @@ button:hover {
 }
 
 .decision {
-
-    position: static;
-    width: 101px;
-    height: 29px;
-    padding: 6px 9px 6px 9px;
-
-
-    border: 1px solid rgb(14, 14, 14);
-    border-radius: 4px;
-
-    background: rgb(198, 228, 214);
-
-
-    color: rgb(14, 14, 14);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-
-.table-container {
-    padding: 16px 21px;
-
-}
-
-.table {
-    width: 815px;
-    height: 242px;
-}
-
-table,
-th,
-td {
-    border: 1px solid rgb(198, 228, 214);
-    black;
-    border-collapse: collapse;
-}
-
-
-.heading {
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(198, 228, 214);
-    color: rgb(14, 14, 14);
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0%;
-}
-.opinion-container {
-    height: 274px;
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-
-}
-
-.opinion-title {
-    margin-top: 53px;
-    margin-bottom: 16px;
-    height: 32px;
-    gap: 16;
-    font-size: 24px;
-}
-
-.selection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.question {
-    text-align: start;
-}
-
-.table-info {
-
-    width: 622px;
-    height: 12px;
-
-    gap: 12;
-    flex-grow: 0;
-    margin: 0px 8px;
-    color: rgb(14, 14, 14);
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 12px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-
-.agree-btn {
-    text-align: center;
-}
-
-.decision {
+    /* Frame 2087325499 */
     position: static;
     width: 101px;
     height: 29px;
@@ -533,104 +453,10 @@ td {
     letter-spacing: 0%;
 
 }
-.opinion-container {
-    height: 274px;
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-
-}
-
-.opinion-title {
-    margin-top: 53px;
-    margin-bottom: 16px;
-    height: 32px;
-    gap: 16;
-    font-size: 24px;
-}
-
-.selection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.question {
-    text-align: start;
-}
-
-.table-info {
-
-    width: 622px;
-    height: 12px;
-
-    gap: 12;
-    flex-grow: 0;
-    margin: 0px 8px;
-    color: rgb(14, 14, 14);
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 12px;
-    letter-spacing: 0%;
-    text-align: left;
-}
 
 
-.agree-btn {
-    text-align: center;
-}
+/* -----------------recent section---------------------------- */
 
-.decision {
-   
-    position: static;
-    width: 101px;
-    height: 29px;
-    padding: 6px 9px 6px 9px;
-
-
-    border: 1px solid rgb(14, 14, 14);
-    border-radius: 4px;
-
-    background: rgb(198, 228, 214);
-
-
-    color: rgb(14, 14, 14);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-
-.table-container {
-    padding: 16px 21px;
-
-}
-
-.table {
-    width: 815px;
-    height: 242px;
-}
-
-table,
-th,
-td {
-    border: 1px solid rgb(198, 228, 214);
-    black;
-    border-collapse: collapse;
-}
-
-
-.heading {
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(198, 228, 214);
-    color: rgb(14, 14, 14);
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0%;
-
-}
 #recent-title {
     height: 32px;
     color: rgb(14, 14, 14);
@@ -786,6 +612,8 @@ td {
 }
 
 
+ /* --------------card box design----------------*/
+
 .card-box {
     width: 202px;
     height: 85px;
@@ -850,6 +678,12 @@ td {
     align-items: center;
     justify-content: center;
 } 
+
+
+
+
+/* --------------------text input---------------- */
+
 .text-input {
     width: 691px;
     height: 42px;
@@ -876,7 +710,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-
+/* ------------------Done section----------------- */
 
 .value-btn {
     display: flex;
@@ -893,6 +727,9 @@ input[type=number]::-webkit-outer-spin-button {
     background: rgb(0, 106, 80);
 }
 
+
+
+/* --------------------subscribe section -------------- */
 .number-bar {
     display: flex;
     justify-content: center;
@@ -915,7 +752,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .subscribe-title {
-
+    /* Subscribe Newsletter */
     position: static;
     width: 622px;
     height: 32px;
@@ -969,6 +806,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+
+/* -----------------footer section----------- */
 .footer {
     width: 354px;
     height: 12px;
@@ -999,6 +838,16 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 42px;
 }
 
+
+
+
+/* ----------------hover section-------------- */
+
+
+button:hover {
+    background-color: cyan;
+    cursor: pointer;
+}
 
 .opinion-effect:hover {
     background-color: cyan;

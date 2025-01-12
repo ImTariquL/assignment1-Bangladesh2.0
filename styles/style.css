@@ -17,7 +17,6 @@ body {
     background-color: #F1F1F3;
 }
 
-/* --------------------------navbar section---------------- */
 
 
 .nav-container {
@@ -43,7 +42,6 @@ body {
     font-weight: 600;
     line-height: 14px;
 }
-/* ------------------- banner section------------------------- */
 
 .hero-container {
     height: 300px;
@@ -121,16 +119,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-/* ------------------phillar section---------------------- */
-
 .pillar-content {
     display: flex;
     align-items: center;
@@ -197,7 +185,6 @@ body {
     text-align: left;
 }
 
-/* ---------------------vision section--------------------- */
 
 
 .vision-description {
@@ -303,8 +290,6 @@ body {
 }
 
 
-/* -----------------chief qoute----------------------- */
-
 .chief-quote {
     height: 64px;
     gap: 8;
@@ -343,18 +328,16 @@ body {
     padding: 32px 16px 32px 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
-    background-image: url("/assets/quote-bg.png");
+    background-image: url("./assets/quote-bg.png");
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-origin: content-box;
     text-align: justify;
     background-position: top left;
     background-size: 36px;
-    padding-box
 }
 
 
-/* --------------------opinion section------------------ */
 .opinion-container {
     height: 274px;
     border-radius: 10px;
@@ -402,7 +385,6 @@ body {
 }
 
 .decision {
-    /* Frame 2087325499 */
     position: static;
     width: 101px;
     height: 29px;
@@ -455,7 +437,6 @@ td {
 }
 
 
-/* -----------------recent section---------------------------- */
 
 #recent-title {
     height: 32px;
@@ -479,7 +460,7 @@ td {
 
 
 .extra-satelite {
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 
@@ -603,16 +584,12 @@ td {
 }
 
 
-.second-satelite {
-    flex-direction: row-reverse;
-}
-
 .satelite-container-2 {
     margin-top: 20px;
 }
 
 
- /* --------------card box design----------------*/
+
 
 .card-box {
     width: 202px;
@@ -682,8 +659,6 @@ td {
 
 
 
-/* --------------------text input---------------- */
-
 .text-input {
     width: 691px;
     height: 42px;
@@ -710,7 +685,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-/* ------------------Done section----------------- */
 
 .value-btn {
     display: flex;
@@ -729,7 +703,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-/* --------------------subscribe section -------------- */
 .number-bar {
     display: flex;
     justify-content: center;
@@ -745,14 +718,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .subscribe-content {
     height: 395px;
-    /* Auto layout */
+
     gap: 42;
     padding: 53px 57px 53px 57px;
     margin: 53px 0px;
 }
 
 .subscribe-title {
-    /* Subscribe Newsletter */
+    
     position: static;
     width: 622px;
     height: 32px;
@@ -807,7 +780,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-/* -----------------footer section----------- */
 .footer {
     width: 354px;
     height: 12px;
@@ -840,8 +812,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-
-/* ----------------hover section-------------- */
 
 
 button:hover {

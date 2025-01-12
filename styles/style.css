@@ -339,7 +339,6 @@ button:hover {
 }
 
 
-/* --------------------opinion section------------------ */
 .opinion-container {
     height: 274px;
     border-radius: 10px;
@@ -387,7 +386,7 @@ button:hover {
 }
 
 .decision {
-    /* Frame 2087325499 */
+
     position: static;
     width: 101px;
     height: 29px;
@@ -436,6 +435,7 @@ td {
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0%;
+}
 .opinion-container {
     height: 274px;
     border-radius: 10px;
@@ -483,7 +483,6 @@ td {
 }
 
 .decision {
-    /* Frame 2087325499 */
     position: static;
     width: 101px;
     height: 29px;
@@ -581,7 +580,7 @@ td {
 }
 
 .decision {
-    /* Frame 2087325499 */
+   
     position: static;
     width: 101px;
     height: 29px;

@@ -207,7 +207,6 @@ body {
     text-align: left;
 }
 
-
 .card-content {
     height: 217px;
     display: flex;
@@ -284,4 +283,9 @@ body {
 
 #color-2 {
     background-color: rgb(247, 235, 207);
+}
+
+button:hover {
+    background-color: cyan;
+    cursor: pointer;
 }

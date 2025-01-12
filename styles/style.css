@@ -631,3 +631,224 @@ td {
     letter-spacing: 0%;
 
 }
+#recent-title {
+    height: 32px;
+    color: rgb(14, 14, 14);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 53px;
+}
+
+#recent-description {
+    height: 32px;
+    gap: 8;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 21px;
+}
+
+
+
+.extra-satelite {
+    margin-top: 16px;
+}
+
+
+.satelite-container {
+    display: flex;
+    padding: 37px 32px;
+    align-items: center;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.extra-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-satelite {
+    width: 273px;
+    height: 205px;
+    margin: 0px 21px;
+    border-radius: 16px;
+}
+
+.satelite-2 {
+    margin-left: 21px;
+}
+
+.inner-satelite-2 {
+    width: 498px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    margin: 21px 0px;
+}
+
+.satelite-title {
+    width: 498px;
+    height: 25px;
+    gap: 8;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.al-jajeera-icon {
+    width: 89px;
+    height: 26px;
+    margin: 8px 0px;
+}
+
+.date-time {
+    display: flex;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.date {
+    font-size: x-small;
+}
+
+.time {
+    font-size: x-small;
+    margin-left: 5px;
+}
+
+.satelite-description {
+    width: 498px;
+    height: 48px;
+    gap: 12;
+    margin: 6px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.satelite-1 {
+    width: 273px;
+    height: 205px;
+    margin: 0px 21px;
+    border-radius: 16px;
+}
+
+.satelite-button {
+    width: 93px;
+    height: 32px;
+    gap: 10;
+    margin: 21px 0px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background: rgb(0, 106, 80);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    width: 1216px;
+    height: 72px;
+    gap: 16;
+    padding: 16px;
+}
+
+
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.second-satelite {
+    flex-direction: row-reverse;
+}
+
+.satelite-container-2 {
+    margin-top: 20px;
+}
+
+
+ /* --------------card box design----------------*/
+
+.card-box {
+    width: 202px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0px 10px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.card-box-2:hover {
+    background-color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+.card-subtitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box-2 {
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+.card-description-1 {
+    width: 739px;
+    height: 32px;
+    gap: 16;
+    flex-grow: 0;
+    margin: 0px 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 10.5px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.collector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title {
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 16px;
+}
+.card-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
